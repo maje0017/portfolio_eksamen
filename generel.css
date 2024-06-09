@@ -124,56 +124,26 @@ img {
   position: relative;
   overflow: hidden;
   margin: 100px;
-  border: 2px solid #ffffff;
+  text-decoration: none;
   border-radius: 3em;
+  border: 2px solid #ffffff;
 }
 
 .cta-button_portfolio {
-  position: absolute;
-  color: #ffffff;
-
-  font-weight: 400;
-  font-style: normal;
-
-  border: 2px solid #ffffff;
-  border-radius: 3em;
-
-  text-decoration: none;
-  padding: 1em 2em;
-
   margin: 33px;
-  left: 20%;
-  top: 35%;
-}
-
-.cta-button_portfolio:hover {
-  color: #279af1;
 }
 
 .cta_portfolio2 {
   position: relative;
   overflow: hidden;
   margin: 100px;
-  border: 2px solid #ffffff;
+  text-decoration: none;
   border-radius: 3em;
+  border: 2px solid #ffffff;
 }
 
 .cta-button_portfolio2 {
-  position: absolute;
-  color: #ffffff;
-
-  font-weight: 400;
-  font-style: normal;
-
-  border: 2px solid #ffffff;
-  border-radius: 3em;
-
-  text-decoration: none;
-  padding: 1em 2em;
-
   margin: 33px;
-  left: 20%;
-  top: 35%;
 }
 .cta-button_portfolio2:hover {
   color: #279af1;
@@ -183,26 +153,13 @@ img {
   position: relative;
   overflow: hidden;
   margin: 100px;
-  border: 2px solid #ffffff;
+  text-decoration: none;
   border-radius: 3em;
+  border: 2px solid #ffffff;
 }
 
 .cta-button_portfolio3 {
-  position: absolute;
-  color: #ffffff;
-
-  font-weight: 400;
-  font-style: normal;
-
-  border: 2px solid #ffffff;
-  border-radius: 3em;
-
-  text-decoration: none;
-  padding: 1em 2em;
-
   margin: 33px;
-  left: 20%;
-  top: 35%;
 }
 .cta-button_portfolio3:hover {
   color: #279af1;
@@ -212,26 +169,12 @@ img {
   position: relative;
   overflow: hidden;
   margin: 100px;
-  border: 2px solid #ffffff;
   border-radius: 3em;
+  border: 2px solid #ffffff;
 }
 
 .cta-button_portfolio4 {
-  position: absolute;
-  color: #ffffff;
-
-  font-weight: 400;
-  font-style: normal;
-
-  border: 2px solid #ffffff;
-  border-radius: 3em;
-
-  text-decoration: none;
-  padding: 1em 2em;
-
   margin: 33px;
-  left: 20%;
-  top: 35%;
 }
 .cta-button_portfolio4:hover {
   color: #279af1;
@@ -240,8 +183,27 @@ img {
 .cta_portfolio2 img,
 .cta_portfolio3 img,
 .cta_portfolio4 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  cursor: pointer;
+  transition: transform 1.3s;
+}
+
+.cta_portfolio img:hover,
+.cta_portfolio2 img:hover,
+.cta_portfolio3 img:hover,
+.cta_portfolio4 img:hover {
+  transform: scale(1.1);
+}
+.portfolio-tekst {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Tekstfarve */
+  padding: 10px; /* Tilpas efter behov */
+  /* Sørg for, at teksten er over billedet */
+  font-size: 24px;
 }
 
 .hero-container_cv {
@@ -309,11 +271,28 @@ img {
   }
 
   .cta {
-    font-size: 10px;
+    font-size: 40%;
+  }
+
+  .cta_portfolio,
+  .cta_portfolio2,
+  .cta_portfolio3,
+  .cta_portfolio4 {
+    margin: 10px;
+  }
+
+  /* Tilpasninger til billedstørrelser */
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .portfolio-tekst {
+    font-size: 80%;
   }
 
   .overskrift {
-    top: 30%;
+    top: 35%;
   }
 
   .cv_skrift {
@@ -325,10 +304,12 @@ img {
     width: 100%;
     height: auto;
   }
+  .hero-image_cv {
+    width: 100%;
+    height: auto;
+  }
 
   .indhold-02 {
-    display: grid;
-    position: absolute;
     top: 5%;
     left: 0%;
   }
@@ -338,17 +319,6 @@ img {
     grid-template-columns: 1fr 1fr;
   }
   .billede1-02 {
-    display: grid;
-  }
-
-  .skrift2-02 {
-    display: grid;
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-  .skrift3-02 {
-    display: grid;
-    grid-row: 3;
+    max-width: 100%;
   }
 }
