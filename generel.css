@@ -287,9 +287,14 @@ img {
   text-align: center;
 }
 
-.item1 {
+.item1_04 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.item8_04 {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 @media screen and (max-width: 800px) {
