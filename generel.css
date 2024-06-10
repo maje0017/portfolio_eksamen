@@ -226,18 +226,35 @@ img {
 .hero-image_materiale {
   width: 100%;
   height: auto;
+  position: relative;
+  z-index: 0; /* Sørg for, at billedet ligger bag containeren */
 }
 
 /*Materiale*/
 .container-02 img {
   object-fit: cover;
+  align-self: stretch;
 }
 
 .container_02 {
+  display: flex;
+  position: absolute;
+  top: 120px;
+
+  z-index: 1;
   padding: 1px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: left;
+}
+
+.h1_02 {
+  display: flex;
+  position: absolute;
+  top: 30px;
+
+  z-index: 1;
+  text-align: center;
 }
 
 .grid_1-2 {
@@ -261,6 +278,11 @@ img {
 }
 
 .container_03 {
+  display: flex;
+  position: absolute;
+  top: 120px;
+
+  z-index: 1;
   padding: 1px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -268,6 +290,11 @@ img {
 }
 
 .h1_03 {
+  display: flex;
+  position: absolute;
+  top: 30px;
+
+  z-index: 1;
   text-align: center;
 }
 
@@ -277,6 +304,11 @@ img {
 }
 
 .container_04 {
+  display: flex;
+  position: absolute;
+  top: 120px;
+
+  z-index: 1;
   padding: 1px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -284,12 +316,26 @@ img {
 }
 
 .h1_04 {
+  display: flex;
+  position: absolute;
+  top: 30px;
+
+  z-index: 1;
   text-align: center;
 }
 
 .item1_04 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.item2_04,
+.item3_04,
+.item4_04,
+.item5_04,
+.item6_04,
+.item7_04 {
+  width: 100%;
 }
 
 .item8_04 {
@@ -335,7 +381,8 @@ img {
   }
 
   .overskrift {
-    top: 35%;
+    top: 30%;
+    left: -6%;
   }
 
   .cv_skrift {
@@ -352,16 +399,13 @@ img {
     height: auto;
   }
 
-  .indhold-02 {
-    top: 5%;
-    left: 0%;
+  .grid_1-1,
+  .grid_1-2 {
+    display: grid;
+    margin: 10px 0;
   }
 
-  .skrift1-02 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .billede1-02 {
-    max-width: 100%;
+  .footer {
+    display: block;
   }
 }
