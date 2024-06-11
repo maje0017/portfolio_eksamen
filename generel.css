@@ -18,7 +18,7 @@ h2 {
 
 p {
   color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
 }
 
@@ -56,7 +56,6 @@ img {
   display: flex; /* for at ændre på placeringen af knapperne */
   margin-top: 10px;
   padding: 10px;
-  gap: 20px;
   left: 50%;
 }
 
@@ -237,7 +236,6 @@ img {
 }
 
 .container_02 {
-  display: flex;
   position: absolute;
   top: 120px;
 
@@ -252,24 +250,44 @@ img {
   display: flex;
   position: absolute;
   top: 30px;
-
+  left: 22%;
   z-index: 1;
   text-align: center;
 }
 
+.materiale_02_knap {
+  color: #ffffff;
+  position: absolute;
+  transition: color 0.3s;
+  text-align: center; /* Center align text for better appearance */
+  z-index: 1;
+
+  font-weight: 400;
+  font-style: normal;
+
+  border: 2px solid #ffffff;
+  border-radius: 3em;
+  display: inline-block;
+  font-family: "Old Standard TT", serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+  margin: 33px;
+  left: 84%;
+  top: 2%;
+}
+
+.materiale_02_link {
+  text-decoration: none;
+  color: #279af1;
+}
+.materiale_02_link:hover {
+  color: #ffffff;
+}
+
 .grid_1-2 {
   text-align: left;
-  margin-left: 15px;
-}
-
-.item4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.item5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 /*03*/
@@ -278,7 +296,6 @@ img {
 }
 
 .container_03 {
-  display: flex;
   position: absolute;
   top: 120px;
 
@@ -288,12 +305,42 @@ img {
   grid-template-columns: 1fr 1fr;
   text-align: left;
 }
+.materiale_03_knap {
+  color: #ffffff;
+  position: absolute;
+  transition: color 0.3s;
+  text-align: center; /* Center align text for better appearance */
+  z-index: 1;
+
+  font-weight: 400;
+  font-style: normal;
+
+  border: 2px solid #ffffff;
+  border-radius: 3em;
+  display: inline-block;
+  font-family: "Old Standard TT", serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+  margin: 33px;
+  left: 84%;
+  top: 2%;
+}
+
+.materiale_03_link {
+  text-decoration: none;
+  color: #279af1;
+}
+.materiale_03_link:hover {
+  color: #ffffff;
+}
 
 .h1_03 {
   display: flex;
   position: absolute;
   top: 30px;
-
+  left: 23%;
   z-index: 1;
   text-align: center;
 }
@@ -304,7 +351,6 @@ img {
 }
 
 .container_04 {
-  display: flex;
   position: absolute;
   top: 120px;
 
@@ -315,18 +361,43 @@ img {
   text-align: left;
 }
 
+.materiale_04_knap {
+  color: #ffffff;
+  position: absolute;
+  transition: color 0.3s;
+  text-align: center; /* Center align text for better appearance */
+  z-index: 1;
+
+  font-weight: 400;
+  font-style: normal;
+
+  border: 2px solid #ffffff;
+  border-radius: 3em;
+  display: inline-block;
+  font-family: "Old Standard TT", serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+  margin: 33px;
+  left: 84%;
+  top: 2%;
+}
+.materiale_04_link {
+  text-decoration: none;
+  color: #279af1;
+}
+.materiale_04_link:hover {
+  color: #ffffff;
+}
+
 .h1_04 {
   display: flex;
   position: absolute;
   top: 30px;
-
+  left: 20%;
   z-index: 1;
   text-align: center;
-}
-
-.item1_04 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .item2_04,
@@ -338,15 +409,32 @@ img {
   width: 100%;
 }
 
-.item8_04 {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
+  }
+
+  .h1_02 {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    left: 7%;
+  }
+
+  .h1_03 {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    left: 7%;
+  }
+  .h1_04 {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    left: 7%;
+  }
+  .h1_05 {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    left: 7%;
   }
 
   h2 {
@@ -397,6 +485,32 @@ img {
   .hero-image_cv {
     width: 100%;
     height: auto;
+  }
+
+  .materiale_02_knap {
+    width: 5%;
+    font-size: 20%;
+    left: 80%;
+    top: 8%;
+  }
+  .materiale_03_knap {
+    width: 5%;
+    font-size: 20%;
+    left: 80%;
+    top: 8%;
+  }
+
+  .materiale_04_knap {
+    width: 5%;
+    font-size: 20%;
+    left: 80%;
+    top: 8%;
+  }
+  .materiale_05_knap {
+    width: 5%;
+    font-size: 20%;
+    left: 80%;
+    top: 8%;
   }
 
   .grid_1-1,
