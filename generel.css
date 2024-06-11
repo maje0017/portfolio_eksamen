@@ -8,18 +8,21 @@ h1 {
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-family: "Playfair Display", serif;
-  margin: 13px;
+  margin-left: 20px;
 }
 
 h2 {
   color: rgb(255, 255, 255);
   font-size: 40px;
+  margin-left: 20px;
+  font-family: "Playfair Display", serif;
 }
 
 p {
   color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
+  margin-left: 20px;
 }
 
 .hero-container {
@@ -63,7 +66,7 @@ img {
   color: #ffffff;
 
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
 
   font-weight: 400;
   font-style: normal;
@@ -91,7 +94,7 @@ img {
   text-decoration: none;
   transition: color 0.3s;
   text-align: center;
-  font-family: "Prosto One", sans-serif;
+
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
@@ -199,9 +202,9 @@ img {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff; /* Tekstfarve */
-  padding: 10px; /* Tilpas efter behov */
-  /* Sørg for, at teksten er over billedet */
+  color: #fff;
+  padding: 10px;
+
   font-size: 24px;
 }
 
@@ -222,6 +225,53 @@ img {
   margin: 10px;
 }
 
+.linkedin_cta {
+  display: grid;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: center;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 3em;
+  display: inline-block;
+  font-family: "Old Standard TT", serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+  margin: 33px;
+}
+.linkedin_cta:hover {
+  color: #279af1;
+}
+
+.github_cta {
+  display: grid;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: center;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 3em;
+  display: inline-block;
+  font-family: "Old Standard TT", serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+  margin: 33px;
+}
+.github_cta:hover {
+  color: #279af1;
+}
 .hero-image_materiale {
   width: 100%;
   height: auto;
@@ -250,7 +300,7 @@ img {
   display: flex;
   position: absolute;
   top: 30px;
-  left: 22%;
+  left: 35%;
   z-index: 1;
   text-align: center;
 }
@@ -259,7 +309,7 @@ img {
   color: #ffffff;
   position: absolute;
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
   z-index: 1;
 
   font-weight: 400;
@@ -309,7 +359,7 @@ img {
   color: #ffffff;
   position: absolute;
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
   z-index: 1;
 
   font-weight: 400;
@@ -340,7 +390,7 @@ img {
   display: flex;
   position: absolute;
   top: 30px;
-  left: 23%;
+  left: 35%;
   z-index: 1;
   text-align: center;
 }
@@ -365,7 +415,7 @@ img {
   color: #ffffff;
   position: absolute;
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
   z-index: 1;
 
   font-weight: 400;
@@ -395,7 +445,7 @@ img {
   display: flex;
   position: absolute;
   top: 30px;
-  left: 20%;
+  left: 35%;
   z-index: 1;
   text-align: center;
 }
@@ -429,7 +479,7 @@ img {
   color: #ffffff;
   position: absolute;
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
   z-index: 1;
 
   font-weight: 400;
@@ -447,11 +497,15 @@ img {
   left: 80%;
   top: 2%;
 }
+
+.materiale_05_knap:hover {
+  color: #279af1;
+}
 .materiale_05_knap2 {
   color: #ffffff;
   position: absolute;
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
   z-index: 1;
 
   font-weight: 400;
@@ -469,6 +523,9 @@ img {
   left: 80%;
   top: 9%;
 }
+.materiale_05_knap2:hover {
+  color: #279af1;
+}
 
 .materiale_05_link {
   text-decoration: none;
@@ -482,7 +539,7 @@ img {
   display: flex;
   position: absolute;
   top: 30px;
-  left: 20%;
+  left: 35%;
   z-index: 1;
   text-align: center;
 }
@@ -496,23 +553,23 @@ img {
   .h1_02 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 7%;
+    left: 20%;
   }
 
   .h1_03 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 7%;
+    left: 20%;
   }
   .h1_04 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 7%;
+    left: 20%;
   }
   .h1_05 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 7%;
+    left: 20%;
   }
 
   h2 {
@@ -536,7 +593,6 @@ img {
     margin: 10px;
   }
 
-  /* Tilpasninger til billedstørrelser */
   .hero-image {
     max-width: 100%;
     height: auto;
@@ -566,29 +622,35 @@ img {
   }
 
   .materiale_02_knap {
-    width: 5%;
-    font-size: 20%;
-    left: 80%;
+    width: 10%;
+    font-size: 40%;
+    left: 75%;
     top: 8%;
   }
   .materiale_03_knap {
-    width: 5%;
-    font-size: 20%;
-    left: 80%;
+    width: 10%;
+    font-size: 40%;
+    left: 75%;
     top: 8%;
   }
 
   .materiale_04_knap {
-    width: 5%;
-    font-size: 20%;
-    left: 80%;
+    width: 10%;
+    font-size: 40%;
+    left: 75%;
     top: 8%;
   }
   .materiale_05_knap {
-    width: 5%;
-    font-size: 20%;
-    left: 80%;
-    top: 8%;
+    width: 10%;
+    font-size: 40%;
+    left: 75%;
+    top: 6%;
+  }
+  .materiale_05_knap2 {
+    width: 10%;
+    font-size: 40%;
+    left: 75%;
+    top: 11%;
   }
 
   .grid_1-1,
@@ -597,7 +659,19 @@ img {
     margin: 10px 0;
   }
 
-  .footer {
-    display: block;
+  .linkedin_cta {
+    position: absolute;
+    width: 5%;
+    font-size: 40%;
+    left: 10%;
+    top: 55%;
+  }
+
+  .github_cta {
+    position: absolute;
+    width: 5%;
+    font-size: 40%;
+    left: 40%;
+    top: 55%;
   }
 }

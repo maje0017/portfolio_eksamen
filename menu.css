@@ -5,16 +5,16 @@ header {
   background-color: #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   top: 0;
-  width: 100%; /* Ensure the header spans the full width */
-  z-index: 1000; /* Ensure the header stays on top of other elements */
-  padding: 0 20px; /* Add padding for better spacing */
-  box-sizing: border-box; /* Ensure padding doesn't affect the total width */
+  width: 100%;
+  z-index: 1000;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 nav {
   display: flex;
   align-items: center;
-  width: 100%; /* Ensure navigation spans the full width */
+  width: 100%;
 }
 
 .menu {
@@ -42,13 +42,13 @@ nav {
   color: #333;
   text-decoration: none;
   transition: color 0.3s;
-  text-align: center; /* Center align text for better appearance */
+  text-align: center;
   font-family: "Prosto One", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
 }
-/* Burger menu icon styling */
+/* Burger menu */
 .burger {
   width: 30px;
   height: 20px;
@@ -68,18 +68,18 @@ nav {
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
-    flex-direction: column; /* Stack menu items vertically */
-    width: 100%; /* Full width for dropdown */
-    background-color: #f6f3f0; /* Background color for dropdown */
+    flex-direction: column;
+    width: 100%;
+    background-color: #f6f3f0;
     position: absolute;
-    top: 60px; /* Position below header */
+    top: 60px;
     left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 999; /* Ensure menu appears above other elements */
+    z-index: 999;
   }
 
   .burger {
-    display: flex; /* Display burger icon */
+    display: flex;
   }
 
   .burger.active .line:nth-child(1) {
@@ -95,15 +95,15 @@ nav {
   }
 
   nav.active .menu {
-    display: flex; /* Display menu when burger is active */
+    display: flex;
   }
 
   nav.active .menu li {
-    margin: 10px 0; /* Margin for individual items */
-    text-align: center; /* Center align items */
+    margin: 10px 0;
+    text-align: center;
   }
 
   nav.active .menu a {
-    font-size: 1.2rem; /* Adjust font size for better readability */
+    font-size: 1.2rem;
   }
 }
