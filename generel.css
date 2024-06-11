@@ -264,7 +264,7 @@ img {
 .h1_02 {
   display: flex;
   position: absolute;
-  top: 30px;
+  top: 0px;
   left: 35%;
   z-index: 1;
   text-align: center;
@@ -342,7 +342,7 @@ img {
 .h1_03 {
   display: flex;
   position: absolute;
-  top: 30px;
+  top: 0px;
   left: 35%;
   z-index: 1;
   text-align: center;
@@ -391,19 +391,10 @@ img {
 .h1_04 {
   display: flex;
   position: absolute;
-  top: 30px;
+  top: 0px;
   left: 35%;
   z-index: 1;
   text-align: center;
-}
-
-.item2_04,
-.item3_04,
-.item4_04,
-.item5_04,
-.item6_04,
-.item7_04 {
-  width: 100%;
 }
 
 /*05*/
@@ -465,7 +456,7 @@ img {
 .h1_05 {
   display: flex;
   position: absolute;
-  top: 30px;
+  top: 0px;
   left: 35%;
   z-index: 1;
   text-align: center;
@@ -480,23 +471,23 @@ img {
   .h1_02 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 20%;
+    left: 25%;
   }
 
   .h1_03 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 20%;
+    left: 25%;
   }
   .h1_04 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 20%;
+    left: 25%;
   }
   .h1_05 {
     font-size: 32px;
     font-family: "Playfair Display", serif;
-    left: 20%;
+    left: 25%;
   }
 
   h2 {
