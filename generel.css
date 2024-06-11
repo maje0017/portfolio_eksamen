@@ -64,19 +64,10 @@ img {
 
 .cv_cta {
   color: #ffffff;
-
-  transition: color 0.3s;
-  text-align: center;
-
-  font-weight: 400;
-  font-style: normal;
-
+  text-decoration: none;
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
-  text-decoration: none;
   padding: 1em 2em;
   width: auto;
   margin: 33px;
@@ -92,18 +83,9 @@ img {
   display: grid;
   color: #ffffff;
   text-decoration: none;
-  transition: color 0.3s;
-  text-align: center;
-
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
-  text-decoration: none;
   padding: 1em 2em;
   width: auto;
   margin: 33px;
@@ -228,13 +210,6 @@ img {
 .linkedin_cta {
   display: grid;
   color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s;
-  text-align: center;
-
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
   border: 2px solid #ffffff;
   border-radius: 3em;
   display: inline-block;
@@ -250,23 +225,13 @@ img {
 }
 
 .github_cta {
-  display: grid;
   color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s;
-  text-align: center;
-
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
+  position: absolute;
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
   text-decoration: none;
   padding: 1em 2em;
-  width: auto;
   margin: 33px;
 }
 .github_cta:hover {
@@ -308,24 +273,18 @@ img {
 .materiale_02_knap {
   color: #ffffff;
   position: absolute;
-  transition: color 0.3s;
-  text-align: center;
-  z-index: 1;
-
-  font-weight: 400;
-  font-style: normal;
-
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
   text-decoration: none;
   padding: 1em 2em;
-  width: auto;
   margin: 33px;
   left: 80%;
   top: 2%;
+}
+
+.materiale_02_knap:hover {
+  color: #279af1;
 }
 
 .materiale_02_link {
@@ -358,24 +317,18 @@ img {
 .materiale_03_knap {
   color: #ffffff;
   position: absolute;
-  transition: color 0.3s;
-  text-align: center;
-  z-index: 1;
-
-  font-weight: 400;
-  font-style: normal;
-
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
   text-decoration: none;
   padding: 1em 2em;
-  width: auto;
   margin: 33px;
   left: 80%;
   top: 2%;
+}
+
+.materiale_03_knap:hover {
+  color: #279af1;
 }
 
 .materiale_03_link {
@@ -414,24 +367,18 @@ img {
 .materiale_04_knap {
   color: #ffffff;
   position: absolute;
-  transition: color 0.3s;
-  text-align: center;
-  z-index: 1;
-
-  font-weight: 400;
-  font-style: normal;
-
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
   text-decoration: none;
   padding: 1em 2em;
-  width: auto;
   margin: 33px;
   left: 80%;
   top: 2%;
+}
+
+.materiale_04_knap:hover {
+  color: #279af1;
 }
 .materiale_04_link {
   text-decoration: none;
@@ -478,21 +425,11 @@ img {
 .materiale_05_knap {
   color: #ffffff;
   position: absolute;
-  transition: color 0.3s;
-  text-align: center;
-  z-index: 1;
-
-  font-weight: 400;
-  font-style: normal;
-
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
   text-decoration: none;
   padding: 1em 2em;
-  width: auto;
   margin: 33px;
   left: 80%;
   top: 2%;
@@ -504,21 +441,11 @@ img {
 .materiale_05_knap2 {
   color: #ffffff;
   position: absolute;
-  transition: color 0.3s;
-  text-align: center;
-  z-index: 1;
-
-  font-weight: 400;
-  font-style: normal;
-
   border: 2px solid #ffffff;
   border-radius: 3em;
-  display: inline-block;
   font-family: "Old Standard TT", serif;
-  font-size: 1em;
   text-decoration: none;
   padding: 1em 2em;
-  width: auto;
   margin: 33px;
   left: 80%;
   top: 9%;
