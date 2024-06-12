@@ -57,7 +57,7 @@ img {
   margin: 5px;
 }
 .cta {
-  display: flex; /* for at ændre på placeringen af knapperne */
+  display: flex;
   margin-top: 10px;
   padding: 10px;
   left: 50%;
@@ -188,7 +188,7 @@ img {
   color: #fff;
   padding: 10px;
 
-  font-size: 24px;
+  font-size: 34px;
 }
 /*CV*/
 .hero-container_cv {
@@ -619,5 +619,13 @@ img {
   .hero-container_cv {
     grid-template-columns: 1fr;
     padding: 1px;
+  }
+  .portfolio_buttons {
+    grid-template-columns: 1fr;
+    padding: 1px;
+  }
+
+  .portfolio-tekst {
+    font-size: 24px;
   }
 }
