@@ -506,7 +506,7 @@ img {
   }
 
   .cta {
-    font-size: 40%;
+    font-size: 30%;
   }
 
   .cta_portfolio,
@@ -570,9 +570,9 @@ img {
     top: 6%;
   }
   .materiale_05_knap2 {
-    width: 10%;
+    width: 12%;
     font-size: 50%;
-    left: 50%;
+    left: 48%;
     top: 6%;
   }
 
@@ -627,5 +627,21 @@ img {
 
   .portfolio-tekst {
     font-size: 24px;
+  }
+  .cta_portfolio {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .cta_portfolio2 {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .cta_portfolio3 {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .cta_portfolio4 {
+    width: 60%;
+    margin-left: 20%;
   }
 }
