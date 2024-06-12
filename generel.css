@@ -245,7 +245,7 @@ img {
 }
 
 /*Materiale*/
-.container-02 img {
+.container_02 img {
   object-fit: cover;
   align-self: stretch;
 }
@@ -297,6 +297,10 @@ img {
 
 .grid_1-2 {
   text-align: left;
+}
+
+.item4 {
+  display: grid;
 }
 
 /*03*/
@@ -541,34 +545,34 @@ img {
 
   .materiale_02_knap {
     width: 10%;
-    font-size: 40%;
-    left: 75%;
+    font-size: 50%;
+    left: 70%;
     top: 8%;
   }
   .materiale_03_knap {
     width: 10%;
-    font-size: 40%;
-    left: 75%;
+    font-size: 50%;
+    left: 70%;
     top: 8%;
   }
 
   .materiale_04_knap {
     width: 10%;
-    font-size: 40%;
-    left: 75%;
+    font-size: 50%;
+    left: 70%;
     top: 8%;
   }
   .materiale_05_knap {
     width: 10%;
-    font-size: 40%;
-    left: 75%;
+    font-size: 50%;
+    left: 70%;
     top: 6%;
   }
   .materiale_05_knap2 {
     width: 10%;
-    font-size: 40%;
-    left: 75%;
-    top: 11%;
+    font-size: 50%;
+    left: 50%;
+    top: 6%;
   }
 
   .grid_1-1,
@@ -582,7 +586,7 @@ img {
     width: 5%;
     font-size: 40%;
     left: 10%;
-    top: 55%;
+    top: 58%;
   }
 
   .github_cta {
@@ -590,6 +594,29 @@ img {
     width: 5%;
     font-size: 40%;
     left: 40%;
-    top: 55%;
+    top: 58%;
+  }
+  .container_02 {
+    grid-template-columns: 1fr;
+    padding: 1px;
+  }
+
+  .container_03 {
+    grid-template-columns: 1fr;
+    padding: 1px;
+  }
+  .container_04 {
+    grid-template-columns: 1fr;
+    padding: 1px;
+  }
+
+  .container_05 {
+    grid-template-columns: 1fr;
+    padding: 1px;
+  }
+
+  .hero-container_cv {
+    grid-template-columns: 1fr;
+    padding: 1px;
   }
 }
