@@ -25,16 +25,6 @@ p {
   margin-left: 20px;
 }
 
-.hero-container {
-  position: relative;
-  text-align: center;
-}
-
-.hero-image {
-  width: 100%;
-  height: auto;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -47,6 +37,17 @@ img {
 
   font-weight: 400;
   font-style: normal;
+}
+
+/*Forside*/
+.hero-container {
+  position: relative;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
 }
 
 .overskrift {
@@ -94,7 +95,7 @@ img {
 .portfolio_cta:hover {
   color: #279af1;
 }
-
+/* Portfolio*/
 .portfolio_buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -189,7 +190,7 @@ img {
 
   font-size: 24px;
 }
-
+/*CV*/
 .hero-container_cv {
   text-align: left;
 }
